@@ -1,0 +1,53 @@
+{
+  "name": "rhythm",
+  "version": "0.0.1",
+  "description": "JavaScript Inline Styles Toolbox",
+  "keywords": [
+    "react",
+    "inline",
+    "javascript",
+    "styles",
+    "vertical",
+    "rhythm"
+  ],
+  "main": "rhythm/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development gulp",
+    "build": "NODE_ENV=production gulp",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monteirocode/rhythm.git"
+  },
+  "author": "Eddie Monteiro <monteirocode@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monteirocode/rhythm/issues"
+  },
+  "homepage": "https://github.com/monteirocode/rhythm#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-loader": "*",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-react-hmre": "*",
+    "babel-preset-stage-0": "*",
+    "browser-sync": "*",
+    "eslint": "^2.1.0",
+    "eslint-loader": "^1.3.0",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-load-plugins": "*",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.4.5",
+    "radium": "^0.16.6",
+    "react": "*",
+    "react-dom": "*",
+    "webpack": "*",
+    "webpack-dev-middleware": "*",
+    "webpack-hot-middleware": "*"
+  }
+}
