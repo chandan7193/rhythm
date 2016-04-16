@@ -36,7 +36,7 @@ import rhythm from 'rhythm'
 let styles = rhythm({
   typo: '47',
   padding: `0.5x 1x`,
-  marginBottom: '1x'
+  marginVertical: '1x'
 })
 
 class Demo extends React.Component {
@@ -51,6 +51,7 @@ ReactDOM.render(<Demo />, document.getElementById('demo'))
 {
   fontSize:"2.9375em",
   lineHeight:"1.0212765957446808",
+  marginTop:"1.5em",
   marginBottom:"1.5em",
   padding:"0.75em 1.5em"
 }
