@@ -3,6 +3,7 @@ JavaScript Inline Styles Toolbox
 
 Resources:
 - [React: CSS in JS by vjeux](https://speakerdeck.com/vjeux/react-css-in-js)
+- [Colin Megill - Inline Styles are About to Kill CSS](https://www.youtube.com/watch?v=NoaxsCi13yQ)
 
 
 ```sh
